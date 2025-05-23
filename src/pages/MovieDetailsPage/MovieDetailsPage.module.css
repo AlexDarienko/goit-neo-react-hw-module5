@@ -1,0 +1,20 @@
+.details {
+    padding: 1rem;
+}
+
+.subNav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.subNav a {
+    text-decoration: none;
+    color: var(--color-primary, #007acc);
+    font-weight: 500;
+}
+
+.subNav a:hover {
+    text-decoration: underline;
+}
